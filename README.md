@@ -122,6 +122,4 @@ Let's build a smarter educational future together.
 
 
 ## Contact
-
- - Vikash Rautela      - [Rautelavikash27@gmail.com](mailto:Rautelavikash27@gmail.com)
  - Prakash Vishwakarma - [prakashvk2003@gmail.com](mailto:prakashvk2003@gmail.com)
