@@ -1,0 +1,45 @@
+# ----------------------------------------
+# Deep Learning with CUDA 12.6 support
+# Install PyTorch, TorchVision, and Torchaudio from the official CUDA 12.6 wheels
+# ----------------------------------------
+torch==2.2.1+cu126
+torchvision==0.17.1+cu126
+torchaudio==2.2.1+cu126
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# ----------------------------------------
+# NLP and Transformers
+# ----------------------------------------
+transformers==4.37.2  # HuggingFace Transformers
+sentence-transformers  # Sentence embeddings (uses transformers + torch)
+accelerate==0.28.0     # HuggingFace Accelerate for efficient training
+tiktoken==0.6.0        # Tokenizer used by OpenAI models
+
+# ----------------------------------------
+# Data handling & visualization
+# ----------------------------------------
+pandas
+numpy
+matplotlib
+pillow  # For image handling (PIL)
+
+# ----------------------------------------
+# PDF and Image processing
+# ----------------------------------------
+pypdfium2  # PDF rendering
+opencv-python  # Image processing with OpenCV
+
+# ----------------------------------------
+# Miscellaneous utilities
+# ----------------------------------------
+nltk  # Natural Language Toolkit (run nltk.download('all') if needed)
+pyyaml  # YAML file parsing
+gradio  # UI interface for ML apps
+gradio_client  # Gradio's Python client for APIs
+verovio==4.3.1  # Music notation rendering
+
+# ----------------------------------------
+# Optional / custom packages
+# ----------------------------------------
+spaces  # HuggingFace Spaces integration
+globe  # Assuming it's a valid PyPI package (if custom, exclude or install separately)

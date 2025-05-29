@@ -1,0 +1,18 @@
+# Navigate to your project directory
+cd your_project_directory
+
+# Run the FastAPI server
+$env:USE_OLLAMA = "1"
+python -m uvicorn api:app --reload
+
+# Process a teacher answer sheet
+python app.py --teacher path/to/teacher_answers.pdf
+
+# Process a single student answer sheet
+python app.py --teacher path/to/teacher_answers.pdf --student path/to/student_answers.pdf --student-name "John Doe"
+
+# Process all student answer sheets in a directory
+python app.py --teacher path/to/teacher_answers.pdf --student-dir path/to/student_answers/
+
+# Generate visualizations
+python app.py --visualize
